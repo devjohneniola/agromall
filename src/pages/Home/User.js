@@ -11,7 +11,7 @@ import { Row, Col } from "../../components/UX";
 const ProfileInfo = ({ title, content }) => (
   <div>
     <span className="text-bold">{title}</span>:
-    <span className="text-bold"> {content}</span>
+    <span> {content}</span>
   </div>
 );
 
