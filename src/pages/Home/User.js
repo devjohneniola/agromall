@@ -8,15 +8,11 @@ import {
 
 import { Row, Col } from "../../components/UX";
 
-const ProfileInfo = ({ title, info }) => (
-  <Row>
-    <Col size="auto">
-      <h5>{title}</h5>
-    </Col>
-    <Col>
-      <span>{info}</span>
-    </Col>
-  </Row>
+const ProfileInfo = ({ title, content }) => (
+  <div>
+    <span className="text-bold">{title}</span>:
+    <span className="text-bold"> {content}</span>
+  </div>
 );
 
 const ProfileSection = props => (
