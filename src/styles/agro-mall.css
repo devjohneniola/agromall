@@ -1,0 +1,23 @@
+#top-logo img {
+  width: 80px;
+  height: 20px;
+}
+
+.user-list {
+  background-color: #40a31c;
+  background-color: #f7c22d;
+  color: #fff;
+}
+.user-face {
+  max-width: 150px;
+  max-height: 120px;
+  border-radius: 50%;
+}
+.user-profile-section {
+  border: 1px solid;
+  box-shadow: 1px 2px 5px #40a31c;
+}
+
+.id-image {
+  max-width: 75%;
+}
